@@ -21,8 +21,18 @@ public class Config {
         this.privateKeys = privateKeys;
     }
 
-    private Boolean constantTimeEquals(final String a, final String b) {
-        return a.equals(b);
+    private Boolean constantTimeEquals(final String astr, final String bstr) {
+        final byte[] a = astr.getBytes();
+        final byte[] b = bstr.getBytes();
+        if (a.length != b.length) {
+            return false;
+        }
+    
+        int result = 0;
+        for (int i = 0; i < a.length; i++) {
+          result |= a[i] ^ b[i];
+        }
+        return result == 0;
     }
 
     private byte[] signPayload(final byte[] input, final byte[] key) throws UnsupportedEncodingException {

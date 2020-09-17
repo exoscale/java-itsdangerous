@@ -17,8 +17,6 @@ public class ConfigTest
 
         String token = cfg.sign("HELLO", timestamp);
 
-
-        System.out.println(token);
         assertTrue( cfg.verify(token).equals("HELLO"));
         assertThrows(IllegalArgumentException.class, () -> { cfg.verify("foobar");});
         assertThrows(TokenValidityExpiredException.class, () -> {cfg.verify(token, 0L);});
