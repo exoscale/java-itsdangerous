@@ -1,4 +1,4 @@
-package exoscale.itsdanjerous;
+package exoscale.itsdangerous;
 
 /**
  * Utility class to retrieve current epoch in seconds

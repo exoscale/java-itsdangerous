@@ -1,4 +1,4 @@
-package exoscale.itsdanjerous;
+package exoscale.itsdangerous;
 
 import java.io.UnsupportedEncodingException;
 import java.security.InvalidKeyException;

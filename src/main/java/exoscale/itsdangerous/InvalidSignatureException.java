@@ -1,4 +1,4 @@
-package exoscale.itsdanjerous;
+package exoscale.itsdangerous;
 
 public class InvalidSignatureException extends Exception {
 }

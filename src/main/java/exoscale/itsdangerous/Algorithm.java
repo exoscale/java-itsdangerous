@@ -1,4 +1,4 @@
-package exoscale.itsdanjerous;
+package exoscale.itsdangerous;
 
 public enum Algorithm {
     SHA1   { public String toString() { return "HmacSHA1";   }},

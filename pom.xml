@@ -5,12 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>exoscale</groupId>
-  <artifactId>itsdanjerous</artifactId>
+  <artifactId>java-itsdangerous</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>itsdanjerous</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <name>java-itsdangerous</name>
+  <url>https://github.com/exoscale/java-itsdangerous</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

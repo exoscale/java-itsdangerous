@@ -1,4 +1,4 @@
-package exoscale.itsdanjerous;
+package exoscale.itsdangerous;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.Assert.assertTrue;

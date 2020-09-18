@@ -1,4 +1,4 @@
-package exoscale.itsdanjerous;
+package exoscale.itsdangerous;
 
 import java.util.Base64;
 import java.io.UnsupportedEncodingException;

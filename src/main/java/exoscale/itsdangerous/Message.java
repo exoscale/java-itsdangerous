@@ -1,4 +1,4 @@
-package exoscale.itsdanjerous;
+package exoscale.itsdangerous;
 
 import java.util.regex.Pattern;
 import java.io.UnsupportedEncodingException;
