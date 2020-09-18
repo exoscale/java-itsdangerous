@@ -1,6 +1,6 @@
 # java-itsdangerous: HMAC'd payloads for web sessions in Java
 
-A Java library designed to sign and verity tokens using the
+A Java library designed to sign and verify tokens using the
 [itsdangerous](https://palletsprojects.com/p/itsdangerous/) scheme.
 
 
